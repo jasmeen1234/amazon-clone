@@ -1,16 +1,19 @@
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
 
-import { initializeApp } from "firebase/app"
-
+ 
+// 
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyASUU6d7p0KBe5BZhy9WMo8B62qHDlo5Rc",
-  authDomain: "clone-a62d9.firebaseapp.com",
-  projectId: "clone-a62d9",
-  storageBucket: "clone-a62d9.appspot.com",
-  messagingSenderId: "727525163462",
-  appId: "1:727525163462:web:13beb378c170a4d32eb2c7",
-  measurementId: "G-Z1J5ESK6T1"
+  apiKey: "AIzaSyCX-kzOmoxhRTAbz5XVmlwjWqQ-UUPbP5M",
+  authDomain: "fir-efb4c.firebaseapp.com",
+  projectId: "fir-efb4c",
+  storageBucket: "fir-efb4c.appspot.com",
+  messagingSenderId: "689270343130",
+  appId: "1:689270343130:web:d4274800675bf626d36ce3",
+  measurementId: "G-YB56JTNBSX"
 };
 
 // Initialize Firebase
-export const app = initializeApp(firebaseConfig);
-export default firebaseConfig
+ export const app = initializeApp(firebaseConfig);
+export default  firebaseConfig
