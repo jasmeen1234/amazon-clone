@@ -4,9 +4,9 @@ import 'react-toastify/dist/ReactToastify.css';
 
 
 const PaymentPage = () => {
-    const notify = () => toast("Payment successful !");
+    const notify = () => toast("Payment successful !");  
   return (
-<div className="flex justify-center items-center min-h-screen bg-blue-300">
+<div className="flex justify-center items-center min-h-screen bg-blue-300"> 
     <div className="h-auto w-80 bg-white p-3 rounded-lg">
         <p className="text-xl flex justify-center items-center mx-auto font-semibold">Payment Details</p>
         <div className="input_text mt-6 relative"> <input type="text" className="h-12 pl-7 hover:border border-gray-500 outline-none px-2 focus:border-blue-900 transition-all w-full border-b " placeholder="jasmeen bano" /> <span class="absolute left-0 text-sm -top-4">Cardholder Name</span> <i class="absolute left-2 top-4 text-gray-400 fa fa-user"></i> </div>
