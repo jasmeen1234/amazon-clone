@@ -6,6 +6,7 @@ module.exports = {
       maxWidth:{
         container:'1440px'
       },
+      // fullresponsive
       screens:{
         xs:'320px',
         sm:'375px',

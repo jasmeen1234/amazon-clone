@@ -60,9 +60,9 @@ const Header = () => {
         >
           <LocationOnOutlinedIcon />
           <p className="text-sm text-lightText font-light flex flex-col">
-            Hello
+            Deliver To
             <span className="text-sm font-semibold -mt-1 text-whiteText">
-              Select your Address
+           Prayagraj
             </span>
           </p>
         </div>
