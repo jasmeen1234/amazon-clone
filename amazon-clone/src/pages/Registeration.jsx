@@ -7,7 +7,7 @@ import {
   getAuth,
   createUserWithEmailAndPassword,
   updateProfile,
-} from "firebase/auth";
+} from "firebase/auth"; 
 
 const Registeration = () => {
   const navigate = useNavigate();
